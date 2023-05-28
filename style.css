@@ -1,0 +1,39 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.item .quantity {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.item .quantity button {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.item .delete {
+  margin-left: 10px;
+}
+
+.liked {
+  color: red;
+}
